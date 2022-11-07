@@ -256,7 +256,7 @@ class ForecastWeather {
 // Current weather API call
 async function getCurrentWeatherData(lat, lon) {
     const units = "metric";
-    const apiKey = "d64272ca54d8ef10570906c001f7cb3c";
+    const apiKey = "466dbb9df37e639f1d57d821fad0c6b1";
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=${units}&appid=${apiKey}`;
 
     console.log(url);
